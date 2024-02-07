@@ -17,5 +17,5 @@ jobs:
             - name: Log in to Docker Hub
               run: |
                 echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
-                docker image build -t pravallikamahesh/dataphion:tagname .
-                docker push pravallikamahesh/dataphion:tagname
+                docker image build -t pravallikamahesh/dataphionc:tagname .
+                docker push pravallikamahesh/dataphionc:tagname

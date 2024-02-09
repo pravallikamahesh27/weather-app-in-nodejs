@@ -6,7 +6,7 @@ on:
 
 jobs:
     build:
-        runs-on: honey
+        runs-on: sum
         
         steps:
            
